@@ -1,71 +1,67 @@
-# Getting Started with Create React App
+# 🔒 Kullanıcı Kimlik Doğrulama Uygulaması:
+Bu proje, Firebase Authentication kullanarak kullanıcı doğrulama işlemlerini gerçekleştiren bir uygulamadır. Kullanıcılar, güvenli bir şekilde giriş yapabilir, çıkış yapabilir, şifrelerini sıfırlayabilir ve profil bilgilerini güncelleyebilir.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📌 Proje Amacı:
+Kullanıcı doğrulama ve profil yönetimini basit ve etkili bir şekilde sağlayan bir uygulama geliştirmek. Kullanıcılar, Firebase Authentication aracılığıyla güvenli bir deneyim yaşar.
 
-## Available Scripts
+#  🎯 Kimlere Hitap Ediyor?:
+✔️ Kullanıcı girişi ve doğrulaması yapan projeler geliştirenler
+✔️ Güvenli kullanıcı yönetimi sağlamak isteyenler
+✔️ Profil yönetimi ve şifre sıfırlama özellikleri eklemek isteyenler
 
-In the project directory, you can run:
+#  🛠️ Kullanılan Teknolojiler:
+⚛️ React	Kullanıcı arayüzü için modern kütüphane
+🔥 Firebase	Kullanıcı doğrulama ve profil yönetimi
+🛠️ Redux	Global state yönetimi
+🔔 React Toastify	Kullanıcı bildirimleri için Toast desteği
+🌐 React Router	Sayfa yönlendirme işlemleri
+📸 Profil Fotoğrafı Yükleme: Kullanıcılar profil fotoğrafı yükleyebilir.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#  🚀 Mevcut Özellikler:
+✅ Kullanıcı Girişi:
+Firebase Authentication kullanılarak, kullanıcılar güvenli bir şekilde sisteme giriş yapabilir. 🛡️
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Kullanıcı Çıkışı:
+Kullanıcılar, mevcut hesaplarından kolayca çıkış yapabilir ve oturumlarını sonlandırabilir. 🔑
 
-### `npm test`
+✅ Şifre Sıfırlama:
+Eğer kullanıcı şifresini unutursa, Firebase ile şifre sıfırlama linki alabilir ve yeni bir şifre belirleyebilir. 🔄
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Profil Güncelleme:
+Kullanıcılar, hesap ayarlarından profil fotoğraflarını ve kullanıcı adlarını kolayca güncelleyebilir. 📸✏️
 
-### `npm run build`
+✅ Geri Bildirim:
+React Toastify ile kullanıcıya anlık geri bildirimler (başarılı işlem, hata, uyarı vb.) gösterilebilir. 🔔
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ React Router ile Navigasyon:
+Uygulama içinde sayfalar arasında hızlı ve kolay bir şekilde geçiş yapılabilir. 🧭
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#  🔧 Geliştirilebilir Alanlar:
+🚧 Kullanıcı Rolleri: Admin ve kullanıcı rolleri eklenebilir.
+🧩 Gelişmiş Profil Yönetimi: Kullanıcılar, kişisel bilgilerini güncelleyebilir.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 📞 İletişim
+Herhangi bir sorunuz ya da öneriniz varsa, benimle e-posta yoluyla iletişime geçebilirsiniz: akgundogduesr@gmail.com. Yardımcı olmaktan memnuniyet duyarım!
 
-### `npm run eject`
+#  📷 Ekran Görüntüsü:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://github.com/user-attachments/assets/476d1441-2308-456a-9884-11e62942da71
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# testing-Authentication
